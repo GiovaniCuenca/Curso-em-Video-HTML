@@ -24,10 +24,19 @@ p {
     text-indent: 50px;
 }
 
+a {
+    color: #606060;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 header#cabecalho img#icone {
-    position: absolute;
-    left: 780px;
-    top: 70px;
+    position: relative;
+    left: 730px;
+    top: -20px;
 }
 
 header#cabecalho {
@@ -126,11 +135,35 @@ section#corpo {
 }
 
 article#noticia-principal h2 {
-    font-size: 12pt;
+    font-size: 13pt;
     color: #606060;
     background-color: #dddddd;
     padding: 5px 0px 5px 10px;
     margin: 10px 0px 10px 0px;
+}
+
+header#cabecalho-artigo h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+}
+
+.direita {
+    text-align: right;
+}
+
+header#cabecalho-artigo h2 {
+    font-size: 13pt;
+    color: #cecece;
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+header#cabecalho-artigo h3 {
+    font-size: 12pt;
+    color: #606060;
+    background-color: #ffffff;
+    margin: 0px;
 }
 
 table#tabelaspec {
@@ -173,9 +206,26 @@ table#tabelaspec td.cd {
 
 aside#lateral {
     display: block;
-    width: 340px;
+    width: 330px;
     float: right;
-    padding-right: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #cecece;
+}
+
+aside#lateral h1 {
+    font-family: 'FonteLogo', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+
+}
+
+aside#lateral h2 {
+    background-color: #606060;
+    font-size: 13pt;
+    color: #ffffff;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
 }
 
 footer#rodape {
