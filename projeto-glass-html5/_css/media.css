@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+
+div#tv-radio {
+  width: 900px;
+  height: 580px;
+  margin: auto;
+  background: url("../_imagens/radio-tv.png") no-repeat;
+}
+
+iframe#filme01 {
+  display: block;
+  position: relative;
+  left: 85px;
+  top: 60px;
+  width: 445px;
+  height: 300px;
+}
+
+audio#musica {
+  display: block;
+  position: relative;
+  left: 573px;
+  top: 500px;
+  width: 300px;
+  height: 30px;
+}
