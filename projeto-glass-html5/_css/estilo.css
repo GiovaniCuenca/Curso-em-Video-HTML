@@ -167,6 +167,11 @@ header#cabecalho-artigo h3 {
     margin: 0px;
 }
 
+header#cabecalho-artigo h3 span#data {
+    font-size: 9pt;
+    color: rgba(0, 0, 0, 0.842);
+}
+
 table#tabelaspec {
     border: 2px solid #dddddd;
     border-spacing: 0;
@@ -237,4 +242,8 @@ footer#rodape {
 footer#rodape p {
     text-indent: 0px;
     text-align: center;
+}
+
+footer#rodape p#CEV {
+    font-size: 8pt;
 }
